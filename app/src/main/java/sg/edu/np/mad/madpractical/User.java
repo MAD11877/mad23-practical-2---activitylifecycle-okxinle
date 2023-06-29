@@ -2,14 +2,14 @@ package sg.edu.np.mad.madpractical;
 
 import android.view.View;
 
-public class user {
+public class User {
     public String name;
     public String description;
     public int id;
     public boolean followed;
-    public user() {
+    public User() {
     }
-    public user(String name, String description, int id, boolean followed) {
+    public User(String name, String description, int id, boolean followed) {
         this.name = name;
         this.description = description;
         this.id = id;

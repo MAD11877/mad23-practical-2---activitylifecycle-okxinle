@@ -11,13 +11,13 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     final String TITLE = "Main Activity";
 
-    user myUser;
+    User myUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        myUser = new user("Hello World", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+        myUser = new User("Hello World", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
                 "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", 1, false);
 
         TextView greeting = findViewById(R.id.nameTextView);
