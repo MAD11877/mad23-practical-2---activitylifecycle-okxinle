@@ -1,10 +1,12 @@
 package sg.edu.np.mad.madpractical;
 
 public class User {
-    private String name;
-    private String description;
-    private int id;
-    private boolean followed;
+    public String name;
+    public String description;
+    public Integer id;
+    public Boolean followed;
+
+    public User() {}
 
     public String getName() {
         return name;
@@ -22,27 +24,19 @@ public class User {
         this.description = description;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public boolean isFollowed() {
+    public Boolean getFollowed() {
         return followed;
     }
 
-    public void setFollowed(boolean followed) {
-        this.followed = followed;
-    }
-
-    public User() {
-        this.name = name;
-        this.description = description;
-        this.id = id;
+    public void setFollowed(Boolean followed) {
         this.followed = followed;
     }
 }
-
